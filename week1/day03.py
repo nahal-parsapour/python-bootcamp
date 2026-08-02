@@ -1,9 +1,4 @@
-def greeting():
-    name = input("What is your name? ")
-    age = input("How old are you? ")
-    return f"Hello, {name}! You are {age} years old."
-print(greeting())
-
+# odd/even
 
 def num_types(num):
     if num % 2 == 0:

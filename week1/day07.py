@@ -1,18 +1,13 @@
-# temp converter
+# text analyzer
 
-print("Temperature Converter")
+text = "Artificial Intelligence"
 
-mode = input("Convert from (C)elsius or (F)arenheit? ").lower()
-
-if mode == "c":
-    c = float(input("Enter temperature in Celsius: "))
-    f = (c * 9/5) + 32
-    print(f"{c}°C = {f:.2f}°F")
-
-elif mode == "f":
-    f = float(input("Enter temperature in Farenheit :"))
-    c = (f - 32) * 5/9
-    print(f"{f}°F = {c:.2f}°C")
-
-else:
-    print("Invalid mode")
+print("\n--- Results ---")
+print("Length:", len(text))
+print("Upper: ", text.upper())
+print("Lower: ", text.lower())
+print("Title: ", text.title())
+print("Replace: ", text.replace("Intelligence", "Learning"))
+print("Count of 'i': ", text.count("i"))
+print("Starts with 'Art':", text.startswith("Art"))
+print("Ends with '!':", text.endswith("!"))

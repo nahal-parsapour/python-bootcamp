@@ -1,17 +1,16 @@
-# def factorial(n):
-#     if n == 1:
-#         return 1
-#     else:
-#         return n * factorial(n-1)
-# print(factorial(50))
+# Guess Number
 
+import random
+print("Guess the Number Game")
+secret_num = random.randint(1, 10)
 
-numbers = [2, 3, 10, 12, 15]
-def sum_avg(numbers):
-    total = sum(numbers)
-    avg = total / len(numbers)
-    return (total, avg)
-print(sum_avg(numbers))
+guess = int(input("Guess a number between 1 and 10: "))
 
+if guess == secret_num:
+    print("Correct!🎉")
+elif guess > secret_num:
+    print("Too high!")
+elif guess < secret_num:
+    print("Too low!")
 
-
+print(f"The secret number was {secret_num}.")
