@@ -30,43 +30,40 @@ tasks = []
 def show_menu():
     print("\n=== Task Manager ===")
     print("1. Add task")
-    print("2. Show tasks")
-    print("3. Remove task")
+    print("2. Remove task")
+    print("3. Show tasks")
     print("4. Exit")
 
 def add_task():
     task = input("Enter new task: ")
     tasks.append(task)
-    print("Task added.")
-
-def show_tasks():
-    if not tasks:
-        print("No tasks yet.")
-    else:
-        print("Your tasks:")
-        for t in tasks:
-            print("-", t)
+    print("Task added!")
 
 def remove_task():
     task = input("Enter task to remove: ")
     if task in tasks:
         tasks.remove(task)
-        print("Task removed.")
+        print("Task removed!")
     else:
-        print("Task not found.")
+        print("Task does not exist!")
+
+def show_tasks():
+    if not tasks:
+        print("No tasks yet.")
+    else:
+        print("Your tasks:", "-", tasks)
 
 while True:
     show_menu()
-    choice = input("Choose an option: ")
-
+    choice = input('Choose an option: ')
     if choice == "1":
         add_task()
     elif choice == "2":
-        show_tasks()
-    elif choice == "3":
         remove_task()
+    elif choice == "3":
+        show_tasks()
     elif choice == "4":
-        print("Goodbye!")
+        print("Bye!")
         break
     else:
-        print("Invalid choice.")
+        print("Invalid choice!")
