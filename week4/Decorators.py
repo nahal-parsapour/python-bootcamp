@@ -16,7 +16,6 @@ def slow_function():
 
 slow_function()
 
-
 # Validation numbers with Decorators
 def validate_number(func):
     def wrapper(*args):
