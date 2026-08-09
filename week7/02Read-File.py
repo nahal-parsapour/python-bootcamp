@@ -19,7 +19,7 @@ def separate_odd_even(input_file, odd_file='odd.txt', even_file='even.txt'):
                     print(f"{line} is not valid, ignored.")
         print("Numbers separated successfully.")
     except FileNotFoundError:
-        print(f"{input_file} is not found. Please run 'Generate-File' first.")
+        print(f"{input_file} is not found. Please run '01Generate-File' first.")
     except PermissionError:
         print("Permission denied.")
     except Exception as e:
