@@ -26,6 +26,7 @@
 
 import requests
 from bs4 import BeautifulSoup
+import requests.compat
 
 url = "https://www.scrapingcourse.com/pagination"
 response = requests.get(url)

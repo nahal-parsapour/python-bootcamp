@@ -21,7 +21,7 @@ def fetch_titles_with_error_handling():
     except Timeout:
         print("Timeout Error")
     except RequestException as e:
-        print("An error occured: {e}")
+        print("An error occurred: {e}")
     except ValueError:
         print("JSON Response is not valid")
 
