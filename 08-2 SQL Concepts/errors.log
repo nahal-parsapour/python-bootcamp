@@ -1,0 +1,2 @@
+ERROR: NOT NULL constraint failed: orders.amount
+ERROR: NOT NULL constraint failed: orders.amount
