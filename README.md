@@ -49,34 +49,6 @@ The numbering follows the structure of the bootcamp and learning sessions.
 
 ---
 
-## 📁 Repository Structure
-
-```text
-python-bootcamp/
-│
-├── 01 Python Fundamentals/
-├── 02 Python Intro/
-├── 03 Dictionaries & Functions Basics/
-├── 04 Advanced Functions & OOP Introduction/
-├── 05 Object-Oriented Programming Advanced/
-│
-├── 07-1 File Management & Regex/
-├── 07-2 Requirements/
-│
-├── 08-1 Web Scraping & Testing/
-│   ├── src/
-│   └── tests/
-│
-├── 08-2 SQL Concepts/
-├── 09 Linux & SQL/
-├── 11 Advance Algorithm/
-└── 12 Web Foundations/
-```
-
-Each directory represents a stage of the learning process and contains the exercises related to that stage.
-
----
-
 ## 🧪 Learning Approach
 
 This repository is intentionally practice-oriented.
