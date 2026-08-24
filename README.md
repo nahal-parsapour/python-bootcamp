@@ -1,13 +1,9 @@
 # 🐍 Python Bootcamp
 
-A hands-on Python learning journey — from the fundamentals of programming to the foundations of backend development.
+A hands-on Python learning journey from programming fundamentals to backend development.
+This repository contains my exercises, practice projects, and experiments as I progress through a Python Bootcamp.
 
-This repository contains my exercises, practice projects, experiments, and learning progress throughout a Python Bootcamp.
-
-The goal is not simply to finish a course, but to build a strong foundation in Python, understand how software is structured, and gradually move toward backend development.
-
-> **Learning never really ends. This repository is a record of the journey, not the destination.**
-
+> Learning never ends. This repository is a record of the journey, not the destination.
 ---
 
 ## 🎯 Goal
@@ -50,97 +46,6 @@ The repository is organized chronologically into learning stages.
 |    12 | Web Foundations                       |
 
 The numbering follows the structure of the bootcamp and learning sessions.
-
----
-
-## 📚 Topics Covered
-
-### Python Fundamentals
-
-* Variables and data types
-* Input and output
-* Operators
-* Conditional statements
-* Loops
-* Strings and string methods
-* Lists and basic data structures
-* Basic problem solving
-* Small practice programs
-
-### Functions & Data Structures
-
-* Functions
-* Parameters and return values
-* Dictionaries
-* Built-in methods
-* Function-based problem solving
-
-### Object-Oriented Programming
-
-* Classes and objects
-* Constructors
-* Instance and class attributes
-* Methods
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Advanced OOP concepts
-
-### Files & Regular Expressions
-
-* File handling
-* Reading and writing files
-* Working with paths
-* Regular expressions
-* Pattern matching
-* Practical file-processing exercises
-
-### Python Packages & Dependencies
-
-* Python packages
-* `pip`
-* `requirements.txt`
-* Managing project dependencies
-* Basic project structure
-
-### Web Scraping & Testing
-
-* Web scraping fundamentals
-* Extracting data from web pages
-* Structuring Python projects
-* Unit testing
-* Test organization
-* `src/` and `tests/` project structure
-
-### SQL & Databases
-
-* SQL fundamentals
-* Queries
-* Filtering and sorting
-* Data manipulation
-* Relational database concepts
-* Connecting Python concepts with database workflows
-
-### Linux
-
-* Linux command-line fundamentals
-* Working with files and directories
-* Basic shell commands
-* Using Linux as a development environment
-
-### Algorithms
-
-* Algorithmic thinking
-* Problem solving
-* Searching and sorting concepts
-* More advanced algorithmic exercises
-
-### Web Foundations
-
-* Web fundamentals
-* HTTP basics
-* Client-server concepts
-* Core concepts needed before moving into backend development
 
 ---
 
@@ -193,34 +98,6 @@ The purpose of this repository is to **document learning and improvement over ti
 
 ---
 
-## 🚀 Current Direction
-
-The long-term direction of this learning path is:
-
-```text
-Python Fundamentals
-        ↓
-Advanced Python
-        ↓
-Problem Solving & Algorithms
-        ↓
-Testing & Project Structure
-        ↓
-SQL & Databases
-        ↓
-Linux
-        ↓
-Web Fundamentals
-        ↓
-Backend Development
-        ↓
-Real Projects
-```
-
-The next stages will focus more heavily on backend development and building complete applications.
-
----
-
 ## 📈 Progress
 
 This repository is continuously evolving.
@@ -233,23 +110,6 @@ There is no final "completed" state for this repository.
 
 ---
 
-## 🛠️ Tools & Technologies
-
-Currently working with:
-
-* Python
-* Git & GitHub
-* PyCharm / VScode
-* Jupyter
-* pip
-* SQL
-* Linux
-* Web fundamentals
-
-More tools and technologies will be added as the learning path progresses.
-
----
-
 ## 👩‍💻 About This Repository
 
 This is a personal learning repository created to keep my Python practice organized, track my progress, and build a public record of my development journey.
@@ -257,13 +117,3 @@ This is a personal learning repository created to keep my Python practice organi
 It started from the fundamentals and will continue to grow toward backend development and larger projects.
 
 **Still learning. Still building. Still improving.**
-
----
-
-## 📌 Note
-
-The code in this repository is primarily educational and may contain beginner-level implementations, experiments, alternative approaches, or solutions that can be improved.
-
-That is part of the process.
-
-The repository is expected to change as my understanding of Python and software development improves.
